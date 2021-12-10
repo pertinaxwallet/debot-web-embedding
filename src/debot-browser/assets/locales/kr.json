@@ -30,8 +30,8 @@
   "validation": {
     "required": "필요",
     "address": "잘못된 주소 형식.",
-    "gte": "{0}보다 크거나 같아야합니다.",
-    "lte": "{0}보다 작거나 같아야합니다.",
+    "gte": [[0, null, "%n보다 크거나 같아야합니다."]],
+    "lte": [[0, null, "%n보다 작거나 같아야합니다."]],
     "scale": "소수점 숫자를 줄여라.",
     "isInt": "정수여야 한다"
   },
@@ -77,7 +77,7 @@
       "upload":  "업로드",
       "scan":  "QR 코드 스캔",
       "couldNotRecognize":  "확인할 수 없습니다.",
-      "error":  "오류  %s",
+      "error": [[0, null, "오류  %s"]],
       "allowCamera":"너의 기기에서 카메라 사용을 허용해",
       "cancel": "취소"
     }

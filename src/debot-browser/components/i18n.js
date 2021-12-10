@@ -34,6 +34,11 @@
             num = defaultNumOrFormatting;
             formatting = numOrFormattingOrContext;
             context = formattingOrContext || this.globalContext;
+          } else if (typeof defaultNumOrFormatting === "string") {
+            defaultText = null;
+            num = defaultNumOrFormatting;
+            formatting = numOrFormattingOrContext;
+            context = formattingOrContext || this.globalContext;
           } else {
             defaultText = defaultNumOrFormatting;
             if (typeof numOrFormattingOrContext === "number") {
@@ -61,7 +66,7 @@
         let newValues = [];
         for (var k in values) {
           var v = values[k];
-          if (typeof(v) == "object") {
+          if (typeof v == "object" && !Array.isArray(v)) {
             v = this.addDomain(`${root}.${k}`, v); //root, values
             newValues = Object.assign({}, newValues, v);
           } else {
@@ -78,7 +83,7 @@
           _ref = d.values;
           for (k in _ref) {
             v = _ref[k];
-            if (typeof(v) == "object") {
+            if (typeof v == "object" && !Array.isArray(v)) {
               v = this.addDomain(k, v); //root, values
               this.data.values = Object.assign({}, this.data.values, v);
             } else {

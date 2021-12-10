@@ -19,7 +19,7 @@ export class Engine {
     this.client = null;
     this.engine = null;
     this.account = null;
-    this.signingBox = 0;
+    this.signingBox = null;
     this.currentDebot = {};
     this.currentDebotAddress = null;
     this.elements = [];

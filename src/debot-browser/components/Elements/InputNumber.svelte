@@ -13,7 +13,7 @@
   let invalid = true;
 
   onMount(() => {
-    node = document.getElementById("value-" + element.level);
+    node = document.getElementById("value-" + engine.level);
   });
 
   let submit = () => {
@@ -27,12 +27,12 @@
     let failed = false;
     if (BN(amount).lte(BN(element.min))) {
       failed = true;
-      node.setCustomValidity(i18n("validation.gte", [element.min]));
+      node.setCustomValidity(i18n("validation.gte", element.min));
     }
 
     if (BN(amount).gte(BN(element.max))) {
       failed = true;
-      node.setCustomValidity(i18n("validation.lte", [element.max]));
+      node.setCustomValidity(i18n("validation.lte", element.max));
     }
 
     if (!BN(amount).isInteger()) {
@@ -52,6 +52,6 @@
 
 <div>{ element.title }</div>
 <Field gapless>
-  <Input id="value-{element.level}" on:keyup={(event) => {valid(event.target.value); element.setValue(event.target.value); }} disabled={element.isUsed} type="number"/>
+  <Input id="value-{engine.level}" on:keyup={(event) => {valid(event.target.value); element.setValue(event.target.value); }} disabled={element.isUsed} type="number"/>
   <Button on:click={submit} disabled={element.isUsed || invalid}>{i18n('tag.inputNumber.apply')}</Button>
 </Field>

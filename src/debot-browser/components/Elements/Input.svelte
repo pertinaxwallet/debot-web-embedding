@@ -20,13 +20,13 @@
 
 <pre>{ element.title }</pre>
 {#if element.multiline}
-  <label for="textarea-{element.level}">{i18n('tag.input.value')}</label>
-  <textarea id="textarea-{element.level}" disabled={element.isUsed} on:change={(event) => element.setValue(event.target.value)}></textarea>
+  <label for="textarea-{engine.level}">{i18n('tag.input.value')}</label>
+  <textarea id="textarea-{engine.level}" disabled={element.isUsed} on:change={(event) => element.setValue(event.target.value)}></textarea>
   <Button disabled={element.isUsed} on:click={submit} primary class="is-full-width">{i18n('tag.input.apply')}</Button>
 {:else}
-  <label for="input-{element.level}">{i18n('tag.input.value')}</label>
+  <label for="input-{engine.level}">{i18n('tag.input.value')}</label>
   <Field gapless>
-    <Input id="input-{element.level}" disabled={element.isUsed} on:change={(event) => element.setValue(event.target.value)}/>
+    <Input id="input-{engine.level}" disabled={element.isUsed} on:change={(event) => element.setValue(event.target.value)}/>
     <Button disabled={element.isUsed} on:click={submit} primary>{i18n('tag.input.apply')}</Button>
   </Field>
 {/if}

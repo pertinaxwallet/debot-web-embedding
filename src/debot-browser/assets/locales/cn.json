@@ -30,8 +30,8 @@
   "validation": {
     "required": "所需的",
     "address": "不正确的地址格式。",
-    "gte": "必须大于或等于{0}。",
-    "lte": "必须小于或等于{0}。",
+    "gte": [[0, null, "必须大于或等于%n。"]],
+    "lte": [[0, null, "必须小于或等于%n。"]],
     "scale": "减少小数位数。",
     "isInt": "应为整数。"
   },
@@ -77,7 +77,7 @@
       "upload":  "上载",
       "scan":  "扫描QR码",
       "couldNotRecognize":  "无法识别",
-      "error":  "错误  %s",
+      "error": [[0, null, "错误  %s"]],
       "allowCamera":"允许使用设备上的摄像头",
       "cancel": "取消"
     }

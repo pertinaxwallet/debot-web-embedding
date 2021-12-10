@@ -71,7 +71,7 @@
   let bot = {
     language: 'en',
     network: 'https://net.ton.dev',
-    address: '0:433f7b97e4e613397175a2d9d1094643b5b90d1f095c423997f95fbf905a3ae3',
+    address: '0:c69a0ed4a11b467ec1a981f29139dc3ff6af47eeacd2cd93e67a6cfc6f771cfb',
     usedCard: 'opacity', //'hide' 'opacity',
     exLangungeFile: "" //external language file
   };

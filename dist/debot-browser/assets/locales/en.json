@@ -30,8 +30,8 @@
   "validation": {
     "required": "Required.",
     "address": "Incorrect address format.",
-    "gte": "Must be greater or equal to %n.",
-    "lte": "Must be less or equal to %n.",
+    "gte": [[0, null, "Must be greater or equal to %n."]],
+    "lte": [[0, null, "Must be less or equal to %n."]],
     "scale": "Reduce the number of decimal places.",
     "isInt": "Should be integer."
   },
@@ -72,12 +72,12 @@
     },
     "scanQrCode": {
       "title": "QR code",
-      "drop":  "DROP SOME IMAGES HERE",
-      "or":  "OR",
-      "upload":  "Upload",
-      "scan":  "Scan",
+      "drop": "DROP SOME IMAGES HERE",
+      "or": "OR",
+      "upload": "Upload",
+      "scan": "Scan",
       "couldNotRecognize":  "Could not recognize",
-      "error":  "Error  %s",
+      "error": [[0, null, "Error  %s"]],
       "allowCamera":"Allow camera in your device",
       "cancel": "Cancel"
     },
