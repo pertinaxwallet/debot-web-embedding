@@ -62,7 +62,7 @@ contract DemoBot is Debot, TerminalItem, QrCodeItem, AddressInputItem, AmountInp
         version = "1.0.0";
         publisher = "TON community";
         key = "Start develop DeBot from here";
-        author = "MTW team";
+        author = "Pertinax wallet team";
         support = address.makeAddrStd(0, 0x0);
         hello = "Hello, I'm the Interfaces Demo DeBot.";
         language = "en";

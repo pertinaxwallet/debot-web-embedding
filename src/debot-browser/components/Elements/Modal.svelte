@@ -34,7 +34,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		position: absolute;
+		position: fixed;
 		overflow: visible;
 		left: 50%;
 		transform: translate(-50%, 0px);

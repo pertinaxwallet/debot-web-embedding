@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40"
+   height="40"
+   viewBox="0 0 40 40"
+   fill="none"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="ever-wallet.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="541.13"
+       x2="54.5601"
+       y1="0.000226805"
+       x1="600"
+       id="paint0_linear_126_62">
+      <stop
+         id="stop4493"
+         stop-color="#FF6922" />
+      <stop
+         id="stop4495"
+         stop-color="#6347F5"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="11.8"
+     inkscape:cx="21.084819"
+     inkscape:cy="29.060395"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <g
+     style="fill:none"
+     id="g4511"
+     transform="matrix(0.06666667,0,0,0.06666667,0.00377745,0.15580478)">
+    <path
+       id="path4489"
+       d="M 300,600 C 465.685,600 600,465.685 600,300 600,134.315 465.685,0 300,0 134.315,0 0,134.315 0,300 0,465.685 134.315,600 300,600 Z"
+       inkscape:connector-curvature="0"
+       style="fill:url(#paint0_linear_126_62)" />
+    <path
+       id="path4491"
+       d="M 322.598,505 445,383.512 V 155 H 216.488 L 95,277.5 h 227.5 z"
+       inkscape:connector-curvature="0"
+       style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd" />
+  </g>
+</svg>

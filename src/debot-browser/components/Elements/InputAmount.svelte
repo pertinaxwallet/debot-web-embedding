@@ -25,7 +25,6 @@
   
   const valid = (amount) => {
     let failed = false;
-    console.log(element);
     if (BN(amount).lte(BN(element.min))) {
       failed = true;
       node.setCustomValidity(i18n("validation.gte", element.min));

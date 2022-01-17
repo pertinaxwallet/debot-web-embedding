@@ -1,7 +1,7 @@
-# My TON wallet (MTW) DeBot engine and embed tool
+# Pertinax wallet DeBot engine and embed tool
 
 <div align="center">
-  <img src="./src/debot-browser/assets/img/debot256.png" title="My TON wallet - Debot">
+  <img src="./src/debot-browser/assets/img/debot256.png" title="Pertinax wallet - Debot">
 </div>
 
 This repository contains source code for DeBot engine that allow interaction with Free Ton (freeTON) blockchain from web pages.
@@ -9,21 +9,21 @@ This repository contains source code for DeBot engine that allow interaction wit
 # Debot engine
 
 <div align="center">
-  <img src="./img/embedded DeBot.gif" title="My TON wallet - Debot engine embed tool">
+  <img src="./img/embedded DeBot.gif" title="Pertinax wallet - Debot engine embed tool">
 </div>
 
 # Installation additional tools
 
-To easy make the deployment process you need to install `tondev`
+To easy make the deployment process you need to install `everdev`
 
 ```console
-npm i -tondev
+npm i -everdev
 ```
 
 After this step you can install tonos-cli
 
 ```console
-tondev install tonos-cli
+everdev install tonos-cli
 ```
 
 # Creating local debot
@@ -76,7 +76,7 @@ npm run dist
 # Embed tool
 
 <div align="center">
-  <img src="./img/embed tool.gif" title="My TON wallet - Debot engine embed tool">
+  <img src="./img/embed tool.gif" title="Pertinax wallet - Debot engine embed tool">
 </div>
 
 To embed DeBot on any web page you need to select network and enter DeBot address.

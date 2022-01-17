@@ -143,7 +143,7 @@
     </div>
     <div>
 			<Row style="margin-top: 0.5rem;">
-        <Col class="is-center"><span>Made by <a target="_blank" href="https://embeddebot.mytonwallet.com/?utm_source=debot_widget">MTW team</a> with &#10084;&#65039;</span></Col>
+        <Col class="is-center"><span>Made by <a target="_blank" href="https://embeddebot.pertinaxwallet.com/?utm_source=debot_widget">Pertinax wallet team</a> with &#10084;&#65039;</span></Col>
         <Col class="is-center">
           <Icon on:click={() => {refresh()}} class="click-pointer is-rounded" src="__CDN_URL__/assets/img/refresh.svg" size="1"/>
         </Col>

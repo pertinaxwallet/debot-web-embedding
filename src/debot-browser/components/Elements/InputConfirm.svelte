@@ -19,7 +19,13 @@
   }
 </script>
 
-<div>{ element.title }</div>
+<style>
+  .break-word {
+    word-break: break-word;
+  }
+</style>
+
+<div class="break-word">{ element.title }</div>
 <div class="is-center">
   <Button on:click="{cancel}" error disabled={element.isUsed}>{i18n('tag.inputConfirm.cancel')}</Button>
   <Button on:click="{confirm}" success disabled={element.isUsed}>{i18n('tag.inputConfirm.confirm')}</Button>

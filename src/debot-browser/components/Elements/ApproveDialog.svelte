@@ -31,6 +31,11 @@
   .approveDialog {
     padding-top: 20px !important;
   }
+
+  .approveDialog td,
+  .approveDialog th {
+    padding: 0.2rem 0.4rem !important
+  }
 </style>
 
 <div class="card">
@@ -54,7 +59,7 @@
             <td>{i18n('approveDialog.fee')}</td>
             <td>
               <div class="amount">
-                <span class="text-overline">{ amountView(modalData.activity.fee) } TON</span>
+                <span class="text-overline">{ amountView(modalData.activity.fee) } EVER</span>
               </div>
             </td>
           </tr>
@@ -75,7 +80,7 @@
           <tr data-key="{i}">
             <td>
               <div class="amount">
-                <span class="text-overline">{ amountView(item.amount) } TON</span>
+                <span class="text-overline">{ amountView(item.amount) } EVER</span>
               </div>
             </td>
             <td>
@@ -89,6 +94,8 @@
       <div class="error">{i18n('approveDialog.unknown')}</div>
     {/if}
   </div>
-  <Button on:click={cancelDialog} class="error">{i18n('approveDialog.reject')}</Button>
-  <Button on:click={approveDialog} class="primary">{i18n('approveDialog.approve')}</Button>
+  <div class="is-center">
+    <Button on:click={cancelDialog} error>{i18n('approveDialog.reject')}</Button>
+    <Button on:click={approveDialog} success>{i18n('approveDialog.approve')}</Button>
+  </div>
 </div>

@@ -32,7 +32,7 @@ export class Engine {
     EngineLoading.set(false);
   }
 
-  getTonClient(server)  {
+  getEverClient(server)  {
     let endpoints;
     switch (server) {
       case 'main.ton.dev':
@@ -53,7 +53,7 @@ export class Engine {
   }
 
   async init(debotSettings, level) {
-    const client = this.getTonClient(debotSettings.server);
+    const client = this.getEverClient(debotSettings.server);
     this.engine = new DebotModule(client);
     let debot, callbacks;
     try {
