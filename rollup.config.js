@@ -81,7 +81,8 @@ const config = [{
     copy({
       targets: [
         { src: 'src/embed-tool/*.html', dest: 'dist/embed-tool/' },
-        { src: 'src/embed-tool/assets', dest: 'dist/embed-tool/' }
+        { src: 'src/embed-tool/assets', dest: 'dist/embed-tool/' },
+        { src: 'CNAME', dest: 'dist/embed-tool/' }
       ]
     }),
     commonjs(),
